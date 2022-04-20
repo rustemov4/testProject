@@ -1,0 +1,19 @@
+.App{
+    position: relative;
+}
+.abs_button{
+    position: fixed;
+    font-size: 25px;
+    z-index: 100;
+    bottom: 5%;
+    right: 3%;
+    color: aliceblue;
+    background: #273a59;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

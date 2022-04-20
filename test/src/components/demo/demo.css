@@ -1,0 +1,55 @@
+.outer_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(33, 59, 121);
+    background: linear-gradient(90deg, rgba(33, 59, 121, 1) 2%, rgba(44, 69, 105, 1) 96%);
+}
+
+.todo_container {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.todo_form {
+    display: flex;
+    flex-flow: column;
+    width: 600px;
+}
+
+.delete {
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: #d9534f;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.edit {
+    padding: 10px;
+    cursor: pointer;
+    background: #f0ad4e;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.todo {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo input{
+    font-size: 27px;
+}
+
+.todo_form input {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.i_submit_todo {
+    cursor: pointer;
+}
